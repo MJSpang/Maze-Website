@@ -1,0 +1,270 @@
+body {
+    background: #21574a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navigation {
+    padding: 0 10px;
+    display: flex;
+  }
+  /* The sidepanel menu */
+  .sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* navigation links, change their color */
+  .sidepanel a:hover {
+    color: #d6e5e3;
+  }
+  
+  /* Position and style the close button for nav */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #21574a;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* search bar */
+  .search {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #d6e5e3;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #21574a;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #d6e5e3;
+    background: #d6e5e3;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*search bar change!*/
+  .wrap {
+    width: 30%;
+    position: sticky;
+    top: 80%;
+    left: 80%;
+    transform: translate(-5%, 10%);
+  }
+  
+  /*header*/
+  header {
+    height: 100vh;
+    background-image: url("https://assets.codepen.io/5651803/hero+maze.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header div {
+    margin: 0;
+    padding: 0 15px;
+  }
+  h1 {
+    color: #cacfd6;
+    font-size: 60pt;
+  }
+  
+  /*MMDXXI*/
+  .cardMMDXXI {
+    width: cover;
+    padding: 40px;
+    text-align: center;
+    color: #d6e5e3;
+  }
+  h2 {
+    font-size: 55pt;
+  }
+  
+  /*spirituality section*/
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sect-2 {
+    background: #628272;
+  }
+  .spirituality {
+    text-align: center;
+    padding: 15px;
+  }
+  .spirituality p {
+    background-color: rgba(
+      202,
+      207,
+      214,
+      0.5
+    ); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  
+  .spirit-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .spirit-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .spirituality img {
+    border-radius: 50%;
+  }
+  
+  .spirit-1-image {
+    width: 700px;
+    height: 700px;
+  }
+  
+  .spirit-2-image {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .spirit-3-image {
+    width: 900px;
+    height: 900px;
+  }
+  
+  .button-1 {
+    display: inline-block;
+    background: #ccaf9b;
+    color: #21574a;
+    padding: 0.8rem 2.8rem;
+    margin-top: 4rem;
+    border-radius: 40px;
+  }
+  
+  .button-1:hover {
+    opacity: 0.8;
+  }
+  
+  /*centuries section*/
+  .sect-3 {
+    display: flex;
+    margin-left: 2rem;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #d6e5e3;
+  }
+  
+  .sect-3 img {
+    width: 400px;
+    height: 200px;
+  }
+  
+  .button-2 {
+    display: inline-block;
+    background: #ccaf9b;
+    color: #21574a;
+    padding: 0.8rem 2.8rem;
+    margin-top: 4rem;
+    border-radius: 40px;
+  }
+  
+  .button-2:hover {
+    opacity: 0.8;
+  }
+  
+  /* carousel */
+  .carousel-cell {
+    width: 30%; /* full width */
+    height: 225px; /* height of carousel */
+    margin-right: 10px;
+    background: #628272;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .carousel-cell.is-selected {
+    background: #ccaf9b;
+  }
+  
+  .flickity-button-icon {
+    fill: #21574a;
+  }
+  
+  img {
+    height: 200px;
+    width: 95%;
+    border-radius: 15px;
+    object-fit: cover;
+    padding-top: 10px;
+  }
+  
+  .flickity-page-dots .dot {
+    background: #aed9bb;
+  }
+  
+  @import "https://assets.codepen.io/5651803/flickity.css";
+  /* footer */
+  footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  footer p {
+    color: white;
+  }
