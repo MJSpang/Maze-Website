@@ -261,6 +261,7 @@ body {
   @import "https://assets.codepen.io/5651803/flickity.css";
   /* footer */
   footer {
+      background-image: url(https://assets.codepen.io/5651803/stone+texture_1.jpg);
     padding-top: 25px;
     padding-bottom: 25px;
   }
