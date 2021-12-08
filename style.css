@@ -264,6 +264,8 @@ body {
   /* footer */
   footer {
       background-image: url(https://assets.codepen.io/5651803/stone+texture_1.jpg);
+     background-color: #21574a;
+      background-blend-mode: multiply;
     padding-top: 25px;
     padding-bottom: 25px;
   }
