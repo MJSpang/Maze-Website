@@ -188,10 +188,9 @@ body {
     display: inline-block;
     background: #ccaf9b;
     color: #21574a;
-    padding: 0.8rem 2.8rem;
-    margin-top: 4rem;
-    border-radius: 40px;
-    align-items: center;
+    padding: 10px 25px;
+    margin-top: 4px;
+    border-radius: 20px;
     justify-content: center;
   }
   
@@ -202,7 +201,6 @@ body {
   /*centuries section*/
   .sect-3 {
     display: flex;
-    margin-left: 2rem;
     margin: auto;
     overflow: auto;
     padding: 0 10px;
@@ -224,9 +222,10 @@ body {
     display: inline-block;
     background: #ccaf9b;
     color: #21574a;
-    padding: 0.8rem 2.8rem;
+    padding: 10px 25px;
     margin-top: 4rem;
     border-radius: 40px;
+    text-align:center;
   }
   
   .button-2:hover {
